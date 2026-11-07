@@ -9,8 +9,12 @@ requires the uv package manager
 ```sh
 git clone git@github.com:DigitalHungerTM/shape-guesser.git
 cd shape-guesser
-uvx briefcase dev -r
+uvx briefcase dev
 ```
+
+First time start may take a while because the `largestinteriorrectangle` get JIT compiled. Consequent runs should start instantly.
+
+`uvx briefcase run` doesn't work for some reason and I can't be arsed to find out why.
 
 ## Screenshots
 
