@@ -2,6 +2,12 @@
 name = "shapeguesser"
 requires-python = ">= 3.15"
 version = "0.0.1"
+dependencies = [
+    "beeware>=0.3.0",
+    "largestinteriorrectangle>=0.2.1",
+    "opencv-python>=5.0.0.93",
+    "toga>=0.5.7",
+]
 
 # This project was generated with 0.4.7 using template: https://github.com/beeware/briefcase-template @ v0.4.7
 [tool.briefcase]
@@ -28,9 +34,14 @@ test_sources = [
 ]
 
 requires = [
+    "opencv-python",
+    "numpy",
+    "largestinteriorrectangle",
 ]
 test_requires = [
     "pytest",
+    "black",
+    "pyright"
 ]
 
 [tool.briefcase.app.shapeguesser.macOS]
