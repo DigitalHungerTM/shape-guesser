@@ -12,7 +12,7 @@ cd shape-guesser
 uvx briefcase dev
 ```
 
-First time start may take a while because the `largestinteriorrectangle` get JIT compiled. Consequent runs should start instantly.
+First time start may take a while because the `largestinteriorrectangle` package gets JIT compiled. Consequent runs should start instantly.
 
 `uvx briefcase run` doesn't work for some reason and I can't be arsed to find out why.
 
